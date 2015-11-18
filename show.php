@@ -13,8 +13,8 @@
 <div id="buttons">
   <div class="btn-group" data-toggle="buttons">
 
-    <div class="btn btn-primary">
-      <input type="radio" name="layer" value="ortelius"> Ortelius
+    <div class="btn btn-primary active">
+      <input type="radio" name="layer" value="ortelius" checked> Ortelius
     </div>
 
     <div class="btn btn-primary">
