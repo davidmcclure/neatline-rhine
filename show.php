@@ -5,8 +5,23 @@
 )); ?>
 
 <!-- Exhibit. -->
-<div class="exhibit">
+<div id="exhibit">
   <?php echo nl_getExhibitMarkup(); ?>
+</div>
+
+<!-- Exhibit. -->
+<div id="buttons">
+  <div class="btn-group" data-toggle="buttons">
+
+    <div class="btn btn-primary">
+      <input type="radio" name="layer"> Ortelius
+    </div>
+
+    <div class="btn btn-primary">
+      <input type="radio" name="layer"> Kaerio
+    </div>
+
+  </div>
 </div>
 
 <?php echo foot(); ?>
