@@ -1,10 +1,12 @@
 ---
 
 compile:
+  - concat
   - less
 
 compile:min:
   - compile
+  - uglify
   - cssmin
 
 default:
