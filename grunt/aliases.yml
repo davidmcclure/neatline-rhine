@@ -1,0 +1,8 @@
+---
+
+compile:
+  - less
+
+compile:min:
+  - compile
+  - cssmin
