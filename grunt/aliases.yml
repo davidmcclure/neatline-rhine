@@ -6,3 +6,7 @@ compile:
 compile:min:
   - compile
   - cssmin
+
+default:
+  - compile:min
+  - watch
