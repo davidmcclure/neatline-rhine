@@ -2,6 +2,8 @@
 
 Neatline.module('Rhine', function() {
 
+  var lastMap;
+
   $(function() {
 
     var buttons = $('input[name="layer"]');
@@ -17,6 +19,11 @@ Neatline.module('Rhine', function() {
           return r.hasTag(map);
         }
       });
+
+      $('body').addClass(map);
+      $('body').removeClass(lastMap);
+
+      lastMap = map;
 
     }
 

@@ -21,6 +21,10 @@
       <input type="radio" name="layer" value="kaerio"> Kaerio
     </div>
 
+    <div class="btn btn-primary">
+      <input type="radio" name="layer" value="confessions"> Confessions
+    </div>
+
   </div>
 </div>
 
